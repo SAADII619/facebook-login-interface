@@ -1,0 +1,96 @@
+body {
+    background-color: #f0f2f5;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.Container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(11, 105, 245);
+    font-size: 50px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+.paragraph {
+    font-size: 17px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.login-container {
+    background-color: white;
+    text-align: center;
+    width: 280px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 20px;
+    border-radius: 7px;
+    box-shadow: 0 2px 4px grey
+}
+
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-container button {
+
+    padding: 10px;
+    margin: 5px 10px;
+    border: none;
+    border-radius: 4px;
+}
+
+.login-container .login-btn {
+    background-color: #1877f2;
+    color: white;
+    width: 255px;
+
+}
+
+.login-container a {
+    color: #1877f2;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+}
+
+.login-container a:hover {
+    color: rgb(34, 154, 194);
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #aaa;
+    opacity: 0.4;
+}
+
+.login-container .create-account-btn {
+    background-color: #42b72a;
+    color: white;
+}
+.login-container .create-account-btn:hover{
+    background-color: #61ce4c;
+}
+
+.last-line {
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
